@@ -63,8 +63,9 @@ public class TestadorData {
 
         if(validarData()) {
             return
+                    "Data válida!\n"+
                     "dia: " + dia +"/" + mes +"/"+ ano;
         }
-        return "Data inválida";
+        return "Data inválida!";
     }
 }
