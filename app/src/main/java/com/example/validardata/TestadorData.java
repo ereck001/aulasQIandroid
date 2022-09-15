@@ -48,7 +48,7 @@ public class TestadorData {
                 maxDias = 30;
                 break;
             default:
-                maxDias = ano % 4 == 0 && ano %100  != 0 && mes == 2 ? 29 : 28;
+                maxDias = ano % 4 == 0 && ano % 100 != 0 && ano % 400 == 0 && mes == 2 ? 29 : 28;
         }
 
         return
